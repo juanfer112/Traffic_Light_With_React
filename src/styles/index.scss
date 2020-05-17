@@ -11,3 +11,59 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+#trafficTop{
+  background-color: black;
+  height: 160px;
+  width: 40px;
+  margin:auto; 
+
+}
+#container{
+  background-color: black;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px 0;
+  height: 400px;
+  width: 140px;
+}
+
+.red.light {
+    background-color: #c0392b;
+    border-radius: 100%;
+    position: relative;
+    height: 80px;
+    width: 80px;
+}
+
+
+.yellow.light {
+    background-color: #f1c40f;
+   // background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 100%;
+    position: relative;
+    height: 80px;
+    width: 80px;
+}
+
+.green.light{
+    background-color: green;
+    border-radius: 100%;
+    position: relative;
+    height: 80px;
+    width: 80px;
+}
+.glow {
+    box-shadow: 0 0 20px 5px #f8ffcc;
+}
